@@ -20,6 +20,11 @@ import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 
 
+/**
+ * @author BoZhang
+ * E-mail:dlzbo@cn.ibm.com
+ * @version date：May 12, 2020 7:51:49 PM
+*/
 public class Excel2007Reader<T> {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(Excel2007Reader.class);

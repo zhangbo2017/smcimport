@@ -10,6 +10,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
+/**
+ * @author BoZhang
+ * E-mail:dlzbo@cn.ibm.com
+ * @version date：May 12, 2020 7:51:23 PM
+*/
 public class StockPriceImportRowReaderImpl implements IRowReader {
 
 	Logger logger = LoggerFactory.getLogger(StockPriceImportRowReaderImpl.class);

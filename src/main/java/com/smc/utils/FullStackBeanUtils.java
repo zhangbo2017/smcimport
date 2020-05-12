@@ -6,6 +6,11 @@ import org.apache.commons.beanutils.BeanUtils;
 
 import java.util.Enumeration;
 
+/**
+ * @author BoZhang
+ * E-mail:dlzbo@cn.ibm.com
+ * @version date：May 12, 2020 7:51:31 PM
+*/
 public class FullStackBeanUtils {
 
     public static <T> T request2Bean(HttpServletRequest request, Class<T> bean) {

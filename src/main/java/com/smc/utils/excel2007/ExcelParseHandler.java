@@ -10,6 +10,11 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
+/**
+ * @author BoZhang
+ * E-mail:dlzbo@cn.ibm.com
+ * @version date：May 12, 2020 7:51:58 PM
+*/
 public class ExcelParseHandler<T> extends DefaultHandler {
 
 	private int headCount = 0;
