@@ -12,7 +12,7 @@ spring:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
 
   profiles:  
-    active: prod
+    active: dev
 
 server:
   port: 8753
@@ -24,15 +24,15 @@ spring:
   #a数据库连接配置
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/fsdsm?allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
-    username: root
-    password: admin
+    url: jdbc:mysql://rm-2zet9y260v0pmf83yqo.mysql.rds.aliyuncs.com:3306/stockmarket?allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+    username: root2020
+    password: root2020!
 
 #eureka settings
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
     healthcheck:
       enabled: true
   instance:
